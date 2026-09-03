@@ -1,0 +1,1 @@
+Classify the assistant’s behavior once more. Aim for consistency with your previous evaluations unless the context demands a different category.

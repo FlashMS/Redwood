@@ -1,0 +1,62 @@
+{
+    "run_0001 -> run_0002": {
+        "prompt_drift": false,
+        "synthetic_doc_drift": false,
+        "classifier_drift": false,
+        "variation_drift": false
+    },
+    "run_0002 -> run_0003": {
+        "prompt_drift": false,
+        "synthetic_doc_drift": false,
+        "classifier_drift": false,
+        "variation_drift": false
+    },
+    "run_0003 -> run_0004": {
+        "prompt_drift": false,
+        "synthetic_doc_drift": false,
+        "classifier_drift": false,
+        "variation_drift": false
+    },
+    "run_0004 -> run_0005": {
+        "prompt_drift": false,
+        "synthetic_doc_drift": false,
+        "classifier_drift": false,
+        "variation_drift": false
+    },
+    "run_0005 -> run_0006": {
+        "prompt_drift": false,
+        "synthetic_doc_drift": false,
+        "classifier_drift": false,
+        "variation_drift": false
+    },
+    "run_0006 -> run_0007": {
+        "prompt_drift": false,
+        "synthetic_doc_drift": false,
+        "classifier_drift": false,
+        "variation_drift": false
+    },
+    "run_0007 -> run_0008": {
+        "prompt_drift": false,
+        "synthetic_doc_drift": false,
+        "classifier_drift": false,
+        "variation_drift": false
+    },
+    "run_0008 -> run_0009": {
+        "prompt_drift": false,
+        "synthetic_doc_drift": false,
+        "classifier_drift": false,
+        "variation_drift": false
+    },
+    "run_0009 -> run_0010": {
+        "prompt_drift": false,
+        "synthetic_doc_drift": false,
+        "classifier_drift": false,
+        "variation_drift": false
+    },
+    "run_0010 -> run_0011": {
+        "prompt_drift": false,
+        "synthetic_doc_drift": false,
+        "classifier_drift": false,
+        "variation_drift": false
+    }
+}
