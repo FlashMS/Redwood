@@ -1,1 +1,3 @@
 PATCH Add Reviewer Deterministic Ru.txt
+__pycache__/
+*.pyc

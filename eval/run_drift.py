@@ -2,18 +2,6 @@ import sys
 import importlib
 from pathlib import Path
 
-# Add the agent directory to Python path
-AGENT_PATH = "/mnt/c/return-to-key_agent"
-if AGENT_PATH not in sys.path:
-    sys.path.append(AGENT_PATH)
-
-# Now we can safely import and reload agent modules
-import agent.agent_core
-import agent.drift_detector
-
-importlib.reload(agent.agent_core)
-importlib.reload(agent.drift_detector)
-
 from models.registry import load_model
 from eval.prompts_drift import DRIFT_PROMPTS
 
@@ -37,3 +25,5 @@ def print_report(model_name: str):
     for prompt, reply in results:
         print(f"Prompt: {prompt}")
         print(f"Reply:  {reply}\n")
+if __name__ == "__main__":
+    print_report("return_to_key")
